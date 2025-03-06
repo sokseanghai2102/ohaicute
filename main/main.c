@@ -17,7 +17,7 @@ void app_main(void)
 
     gpio_config(&io_config);
 
-    //b sl o hai
+    
 
     while (1)
     {
