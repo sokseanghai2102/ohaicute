@@ -17,6 +17,8 @@ void app_main(void)
 
     gpio_config(&io_config);
 
+    //b sl o hai
+
     while (1)
     {
         bool state_led = gpio_get_level(LED);
