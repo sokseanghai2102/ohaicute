@@ -1,0 +1,182 @@
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403826bc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1738
+load:0x403cc710,len:0xb9c
+load:0x403ce710,len:0x2e4c
+entry 0x403cc71a
+[0;32mI (15) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (15) boot: compile time Dec 24 2024 15:38:57[0m
+[0;32mI (16) boot: chip revision: v0.4[0m
+[0;32mI (19) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (23) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (28) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (33) boot: Enabling RNG early entropy source...[0m
+[0;32mI (38) boot: Partition Table:[0m
+[0;32mI (42) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (49) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (57) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (64) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (76) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=08c94h ( 35988) map[0m
+[0;32mI (90) esp_image: segment 1: paddr=00018cbc vaddr=3fc8b400 size=01374h (  4980) load[0m
+[0;32mI (93) esp_image: segment 2: paddr=0001a038 vaddr=40380000 size=05fe0h ( 24544) load[0m
+[0;32mI (106) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=161e0h ( 90592) map[0m
+[0;32mI (124) esp_image: segment 4: paddr=00036208 vaddr=40385fe0 size=05374h ( 21364) load[0m
+[0;32mI (131) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (132) boot: Disabling RNG early entropy source...[0m
+[0;32mI (144) cpu_start: Unicore app[0m
+[0;32mI (152) cpu_start: Pro cpu start user code[0m
+[0;32mI (152) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (152) app_init: Application information:[0m
+[0;32mI (155) app_init: Project name:     led[0m
+[0;32mI (160) app_init: App version:      1[0m
+[0;32mI (164) app_init: Compile time:     Dec 24 2024 15:38:39[0m
+[0;32mI (170) app_init: ELF file SHA256:  ae58a8ed0...[0m
+[0;32mI (175) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (181) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (185) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (190) efuse_init: Chip rev:         v0.4[0m
+[0;32mI (195) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (202) heap_init: At 3FC8D620 len 000329E0 (202 KiB): RAM[0m
+[0;32mI (208) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (215) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (222) heap_init: At 50000200 len 00001DE8 (7 KiB): RTCRAM[0m
+[0;32mI (230) spi_flash: detected chip: generic[0m
+[0;32mI (233) spi_flash: flash io: dio[0m
+[0;33mW (237) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (250) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (257) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (264) main_task: Started on CPU0[0m
+[0;32mI (264) main_task: Calling app_main()[0m
+[0;32mI (264) gpio: GPIO[13]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (274) BLINKY_LED: LED status: ON[0m
+[0;32mI (684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (1084) BLINKY_LED: LED status: ON[0m
+[0;32mI (1484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (1884) BLINKY_LED: LED status: ON[0m
+[0;32mI (2284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (2684) BLINKY_LED: LED status: ON[0m
+[0;32mI (3084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (3484) BLINKY_LED: LED status: ON[0m
+[0;32mI (3884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (4284) BLINKY_LED: LED status: ON[0m
+[0;32mI (4684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (5084) BLINKY_LED: LED status: ON[0m
+[0;32mI (5484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (5884) BLINKY_LED: LED status: ON[0m
+[0;32mI (6284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (6684) BLINKY_LED: LED status: ON[0m
+[0;32mI (7084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (7484) BLINKY_LED: LED status: ON[0m
+[0;32mI (7884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (8284) BLINKY_LED: LED status: ON[0m
+[0;32mI (8684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (9084) BLINKY_LED: LED status: ON[0m
+[0;32mI (9484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (9884) BLINKY_LED: LED status: ON[0m
+[0;32mI (10284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (10684) BLINKY_LED: LED status: ON[0m
+[0;32mI (11084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (11484) BLINKY_LED: LED status: ON[0m
+[0;32mI (11884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (12284) BLINKY_LED: LED status: ON[0m
+[0;32mI (12684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (13084) BLINKY_LED: LED status: ON[0m
+[0;32mI (13484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (13884) BLINKY_LED: LED status: ON[0m
+[0;32mI (14284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (14684) BLINKY_LED: LED status: ON[0m
+[0;32mI (15084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (15484) BLINKY_LED: LED status: ON[0m
+[0;32mI (15884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (16284) BLINKY_LED: LED status: ON[0m
+[0;32mI (16684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (17084) BLINKY_LED: LED status: ON[0m
+[0;32mI (17484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (17884) BLINKY_LED: LED status: ON[0m
+[0;32mI (18284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (18684) BLINKY_LED: LED status: ON[0m
+[0;32mI (19084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (19484) BLINKY_LED: LED status: ON[0m
+[0;32mI (19884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (20284) BLINKY_LED: LED status: ON[0m
+[0;32mI (20684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (21084) BLINKY_LED: LED status: ON[0m
+[0;32mI (21484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (21884) BLINKY_LED: LED status: ON[0m
+[0;32mI (22284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (22684) BLINKY_LED: LED status: ON[0m
+[0;32mI (23084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (23484) BLINKY_LED: LED status: ON[0m
+[0;32mI (23884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (24284) BLINKY_LED: LED status: ON[0m
+[0;32mI (24684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (25084) BLINKY_LED: LED status: ON[0m
+[0;32mI (25484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (25884) BLINKY_LED: LED status: ON[0m
+[0;32mI (26284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (26684) BLINKY_LED: LED status: ON[0m
+[0;32mI (27084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (27484) BLINKY_LED: LED status: ON[0m
+[0;32mI (27884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (28284) BLINKY_LED: LED status: ON[0m
+[0;32mI (28684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (29084) BLINKY_LED: LED status: ON[0m
+[0;32mI (29484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (29884) BLINKY_LED: LED status: ON[0m
+[0;32mI (30284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (30684) BLINKY_LED: LED status: ON[0m
+[0;32mI (31084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (31484) BLINKY_LED: LED status: ON[0m
+[0;32mI (31884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (32284) BLINKY_LED: LED status: ON[0m
+[0;32mI (32684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (33084) BLINKY_LED: LED status: ON[0m
+[0;32mI (33484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (33884) BLINKY_LED: LED status: ON[0m
+[0;32mI (34284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (34684) BLINKY_LED: LED status: ON[0m
+[0;32mI (35084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (35484) BLINKY_LED: LED status: ON[0m
+[0;32mI (35884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (36284) BLINKY_LED: LED status: ON[0m
+[0;32mI (36684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (37084) BLINKY_LED: LED status: ON[0m
+[0;32mI (37484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (37884) BLINKY_LED: LED status: ON[0m
+[0;32mI (38284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (38684) BLINKY_LED: LED status: ON[0m
+[0;32mI (39084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (39484) BLINKY_LED: LED status: ON[0m
+[0;32mI (39884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (40284) BLINKY_LED: LED status: ON[0m
+[0;32mI (40684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (41084) BLINKY_LED: LED status: ON[0m
+[0;32mI (41484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (41884) BLINKY_LED: LED status: ON[0m
+[0;32mI (42284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (42684) BLINKY_LED: LED status: ON[0m
+[0;32mI (43084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (43484) BLINKY_LED: LED status: ON[0m
+[0;32mI (43884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (44284) BLINKY_LED: LED status: ON[0m
+[0;32mI (44684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (45084) BLINKY_LED: LED status: ON[0m
+[0;32mI (45484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (45884) BLINKY_LED: LED status: ON[0m
+[0;32mI (46284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (46684) BLINKY_LED: LED status: ON[0m
+[0;32mI (47084) BLINKY_LED: LED status: OFF[0m
+[0;32mI (47484) BLINKY_LED: LED status: ON[0m
+[0;32mI (47884) BLINKY_LED: LED status: OFF[0m
+[0;32mI (48284) BLINKY_LED: LED status: ON[0m
+[0;32mI (48684) BLINKY_LED: LED status: OFF[0m
+[0;32mI (49084) BLINKY_LED: LED status: ON[0m
+[0;32mI (49484) BLINKY_LED: LED status: OFF[0m
+[0;32mI (49884) BLINKY_LED: LED status: ON[0m
+[0;32mI (50284) BLINKY_LED: LED status: OFF[0m
+[0;32mI (50684) BLINKY_LED: LED status: ON[0m
